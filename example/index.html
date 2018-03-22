@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pivoting Tables</title>
+  <style>
+      .axis {
+          font: 10px sans-serif;
+      }
+      .axis path, .axis line {
+          fill: none;
+          stroke: #000;
+          shape-rendering: crispEdges;
+      }
+      .y.axis path {
+          display: none;
+      }
+      </style>
+</head>
+
+<body>
+    <svg width="960" height="500" style="padding-left: 25%; padding-bottom: 5%;"></svg>
+    <br/><br/>
+  <div height="700px" width="2100px" style="padding-left: 5%">
+    <canvas id="canvasTable" width="2100px" height="700px"></canvas>
+  </div>
+  <!-- <canvas id="canvasTable" width="2100px" height="5000px"></canvas> -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="../dist/app.bundle.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
